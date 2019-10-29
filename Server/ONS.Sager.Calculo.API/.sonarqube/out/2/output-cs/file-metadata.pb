@@ -1,0 +1,9 @@
+{
+rC:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.SAGER.DataAccess\Class1.csutf-8•
+‹C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.SAGER.DataAccess\Extensions\DataAccessExtensions.csutf-8’
+ˆC:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.SAGER.DataAccess\Interfaces\IEventoRepository.csutf-8›
+‘C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.SAGER.DataAccess\Interfaces\IUnidadeGeradoraRepository.csutf-8“
+‰C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.SAGER.DataAccess\Repositories\EventoRepository.csutf-8œ
+’C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.SAGER.DataAccess\Repositories\UnidadeGeradoraRepository.csutf-8c
+XC:\Users\natalia.moura\AppData\Local\Temp\.NETCoreApp,Version=v2.2.AssemblyAttributes.csutf-8±
+¥C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.SAGER.DataAccess\obj\Debug\netcoreapp2.2\ONS.SAGER.DataAccess.AssemblyInfo.csutf-8

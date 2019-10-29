@@ -1,0 +1,10 @@
+“
+‰C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\Configurations\SwaggerConfig.csutf-8”
+ŠC:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\Controllers\CalculoController.csutf-8“
+‰C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\Extensions\SwaggerExtensions.csutf-8Š
+€C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\Models\ErroResponse.csutf-8}
+tC:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\Program.csutf-8}
+tC:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\Startup.csutf-8c
+XC:\Users\natalia.moura\AppData\Local\Temp\.NETCoreApp,Version=v2.2.AssemblyAttributes.csutf-8¸
+¬C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\obj\Debug\netcoreapp2.2\ONS.Sager.Calculo.API.RazorAssemblyInfo.csutf-8³
+§C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\obj\Debug\netcoreapp2.2\ONS.Sager.Calculo.API.AssemblyInfo.csutf-8

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>ONS.Sager.Calculo.API</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>f4108cb5-e431-4469-a2ff-7531dc67fccc</ProjectGuid>
+  <FullPath>C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\ONS.Sager.Calculo.API.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\.sonarqube\out\7\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\Server\ONS.Sager.Calculo.API\bin\Debug\netcoreapp2.2\ONS.Sager.Calculo.API.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">C:\Users\natalia.moura\Downloads\calculo-sample-master\calculo-sample-master\.sonarqube\out\7</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>netcoreapp2.2</TargetFramework>
+</ProjectInfo>
