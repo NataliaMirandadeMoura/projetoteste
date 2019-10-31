@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
+using ONS.SAGER.Calculo.AutomatedTest.Extensions;
+using ONS.SAGER.Calculo.AutomatedTest.Extensions.ONS.SAGER.Calculo.AutomatedTest.Extensions;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -15,28 +17,26 @@ namespace Selenium.Utils.Utils
 
         public BrowserContext(Browser browser, IConfiguration configuration)
     {
-        _browser = browser;
-        Configuration = configuration;
+            _browser = browser;
+            Configuration = configuration;
 
-        string caminhoDriver = null;
-        if (browser == Browser.Firefox)
-        {
-            caminhoDriver =
-                Configuration.GetSection("Selenium:CaminhoDriverFirefox").Value;
-        }
-        else if (browser == Browser.Chrome)
-        {
-            caminhoDriver =
-                Configuration.GetSection("Selenium:CaminhoDriverChrome").Value;
-        }
-        else
-        {
-            throw new Exception("Navegador não conhecido");
-        }
+            string caminhoDriver = null;
+            if (browser == Browser.Firefox)
+            {
+                caminhoDriver = "gecko.exe".ToApplicationPath("driver");
+            }
+            else if (browser == Browser.Chrome)
+            {
+                caminhoDriver = "chromedriver.exe".ToApplicationPath("driver");
+            }
+            else
+            {
+                throw new Exception("Navegador não conhecido");
+            }
 
-        WebDriver = WebDriverFactory.CreateWebDriver(
-            browser, caminhoDriver, true);
-    }
+            WebDriver = WebDriverFactory.CreateWebDriver(
+                browser, caminhoDriver, true);
+        }
 }
 }
 

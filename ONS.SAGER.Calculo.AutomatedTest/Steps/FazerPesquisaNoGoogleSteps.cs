@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using ONS.SAGER.Calculo.AutomatedTest.Extensions;
+using ONS.SAGER.Calculo.AutomatedTest.Extensions.ONS.SAGER.Calculo.AutomatedTest.Extensions;
 using ONS.SAGER.Calculo.AutomationTest.Pages;
 using Selenium.Utils.Utils;
 using System;
@@ -9,27 +10,13 @@ using TechTalk.SpecFlow;
 namespace ONS.SAGER.Calculo.AutomatedTest
 {
     [Binding]
-    public class FazerPesquisaNoGoogleSteps
+    public class FazerPesquisaNoGoogleSteps : StepsBase
     {
-        private readonly IConfiguration _configuration;
         private GooglePage _googlePage;
-        private PesquisaGoogle _pesquisaGoogle;
-        private static BrowserContext _browserContext;
+        private static PesquisaGoogle _pesquisaGoogle;
 
-
-        public FazerPesquisaNoGoogleSteps()
+        public FazerPesquisaNoGoogleSteps() : base()
         {
-            var fileName = "appsettings.json";
-
-            var path = new ConfigurationBuilder()
-                .SetBasePath(fileName.ToApplicationPath());
-
-            var builder = path
-               .AddJsonFile(fileName);
-
-            _configuration = builder.Build();
-
-            _browserContext = new BrowserContext(Browser.Chrome, _configuration);
             _googlePage = new GooglePage(_browserContext);
             _pesquisaGoogle = new PesquisaGoogle(_browserContext);
         }
@@ -57,7 +44,11 @@ namespace ONS.SAGER.Calculo.AutomatedTest
         {
             _pesquisaGoogle.AcharBotao();
             _pesquisaGoogle.TakeScreenshot(@"c:\Screenshot\EntaoOSistemaExibeOResultadoDaPesquisa\", $"{DateTime.Now.ToString("dd_MM_yyyy_HH_mm_ss")}.png");
+        }
 
+        [AfterTestRun]
+        public static void Fechar()
+        {
             _pesquisaGoogle.Fechar();
         }
     }
