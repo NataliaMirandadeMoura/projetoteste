@@ -20,8 +20,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ONS.Sager.Calculo.API\ONS.Sager.Calculo.API.csproj" />
-  </ItemGroup>
-
 </Project>
